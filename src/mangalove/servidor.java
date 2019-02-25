@@ -88,7 +88,7 @@ public class servidor{
  //==============Envio de imagenes =================================================================================
             String path= "fotos_enviar";
             File dir  = new File(path);
-            File [] f = dir.listFiles();
+            File [] f = dir.listFiles();//waka waka
                 int num=f.length;
                  dos=new DataOutputStream(cliente.getOutputStream());
                 DataInputStream dis = null;
